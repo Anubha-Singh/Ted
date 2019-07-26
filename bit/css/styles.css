@@ -1,0 +1,73 @@
+body{
+	background: #E0CAE8    ;
+	
+}
+.content-wrapper
+{
+	
+	position: relative;
+	text-align: center;
+	font-size: 40px;
+}
+.centered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.card{
+	margin-top: 25px;
+}
+.image{
+	opacity: 0.6;
+}
+.badge{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+}
+.forms{
+	margin-top: 45px;
+	padding: 25px 50px 75px 50px;
+	border-style: solid;
+	border-width: 2px;
+	font-family: 'Noto Serif', serif;
+}
+.heading
+{
+	margin-top: 45px;
+	
+}
+.login{
+	padding-right: 3px;
+	margin-right: 3px;
+}
+.signup{
+	margin-left: 3px;
+}
+.btn-group button {
+  background: green; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background: #3e8e41;
+}
